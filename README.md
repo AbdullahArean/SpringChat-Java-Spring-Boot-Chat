@@ -32,8 +32,8 @@ This application also demonstrates some user interface capabilities such as:
 	* Download files by clicking on file-messages
 
 ## Screenshots
-![screenshot1](images/sc1.png "Home page")
+<!-- ![screenshot1](images/sc1.png "Home page")
 ![screenshot2](images/sc2.png "Login page")
 ![screenshot3](images/sc3.png "Chat page 1")
-![screenshot4](images/sc4.png "Chat page 2")
+![screenshot4](images/sc4.png "Chat page 2") -->
 
