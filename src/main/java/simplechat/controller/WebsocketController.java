@@ -54,6 +54,15 @@ public class WebsocketController implements WebSocketHandler {
     @Override
     public void afterConnectionEstablished(WebSocketSession wss) throws IOException {
         try {
+//            if (userRepository.findByUsername("admin") == null) {
+//
+//                User bcUSer = new User();
+//                bcUSer.setUsername("Broadcast");
+//                bcUSer.setPassword(byteUtils.hash("123456"));
+//                bcUSer.setFirstname("Broadcast");
+//                bcUSer.setLastname("");
+//                userRepository.save(bcUSer);
+//            }
             lock.lock();
             Session session = getSession(wss);
             if ((session != null) && (session.getUser() != null)) {

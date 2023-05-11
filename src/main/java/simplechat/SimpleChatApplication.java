@@ -52,7 +52,7 @@ public class SimpleChatApplication implements ApplicationContextAware {
     @PostConstruct
     public void starter() {
         new File(uploadPath).mkdir();
-        if (userRepository.findByUsername("admin") == null) {
+        if (userRepository.findByUsername(broadcastUsername) == null) {
 
             User bcUSer = new User();
             bcUSer.setUsername(broadcastUsername);
