@@ -13,7 +13,7 @@
     <groupId>com.example</groupId>
     <artifactId>simplechat</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>simplechat</name>
+    <name>SpringChat</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>

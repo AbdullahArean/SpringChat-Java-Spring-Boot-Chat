@@ -9,13 +9,13 @@
     </div>
     <div class="HeaderRight">
         <a style="cursor: pointer;display: inline-block" <% $headerAccountAction %> class="Button ButtonTransDark <% $headerAccountClasses %>">
-        <img src="user.svg" class="HeaderUserProfileSvg"/>
+        <img src="userModel.svg" class="HeaderUserProfileSvg"/>
         <div style="display: inline-block;" class="SimpleText SimpleFont"><% $headerAccountText %></div>
         <img src="caret-down.svg" class="HeaderUserCaretSvg" style="display: <% $HeaderUserCaretSvgDisplay %>;"/>
 
         <div id="accountDropdown" class="DropdownHolder SimpleFont" onmouseleave='showComponent("accountDropdown")'
              onclick='hideComponent("accountDropdown")'>
-            <div class="DropdownItem" onclick='location.href="/user"'>My account</div>
+            <div class="DropdownItem" onclick='location.href="/userModel"'>My account</div>
             <div class="DropdownItem" onclick="showChangePasswordForm()">Change password</div>
             <div class="DropdownItem" onclick='location.href="/deleteAccount"'>Delete account</div>
             <div class="DropdownItem" onclick='location.href="/logout"'>Log Out</div>
